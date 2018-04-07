@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Biblioteca/Aula01/src"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/hibernate-core-4.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/hibernate-entitymanager-4.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="Biblioteca/Aula01/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Biblioteca/Aula01/bin"/>
+</classpath>
