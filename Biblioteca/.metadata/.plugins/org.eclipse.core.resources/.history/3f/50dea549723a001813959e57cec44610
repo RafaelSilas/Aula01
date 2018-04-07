@@ -1,0 +1,5 @@
+package br.aula.bd;
+
+public class HibernateFactory {
+
+}

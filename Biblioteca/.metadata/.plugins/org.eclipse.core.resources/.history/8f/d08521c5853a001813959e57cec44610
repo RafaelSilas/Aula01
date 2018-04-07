@@ -1,0 +1,50 @@
+package br.aula.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.GeneratedValue;
+
+public class Emprestimo {
+
+	public Long getIdEmprestimo() {
+		return idEmprestimo;
+	}
+
+	public void setIdEmprestimo(Long idEmprestimo) {
+		this.idEmprestimo = idEmprestimo;
+	}
+
+	public Date getDataEmprestimo() {
+		return dataEmprestimo;
+	}
+
+	public void setDataEmprestimo(Date dataEmprestimo) {
+		this.dataEmprestimo = dataEmprestimo;
+	}
+
+	public Date getDataDevolucao() {
+		return dataDevolucao;
+	}
+
+	public void setDataDevolucao(Date dataDevolucao) {
+		this.dataDevolucao = dataDevolucao;
+	}
+
+	@Id
+	@GeneratedValue
+	private Long idEmprestimo;
+	
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "emp_dataEmprestimo", nullable = true, length = 200)
+	private Date dataEmprestimo;
+	
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "emp_dataDevolucao", nullable = true, length = 200)
+	private Date dataDevolucao;
+	
+	
+}

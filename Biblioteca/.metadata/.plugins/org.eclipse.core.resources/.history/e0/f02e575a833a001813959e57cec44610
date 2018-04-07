@@ -1,0 +1,5 @@
+package br.aula.model;
+
+public class Usuario {
+
+}

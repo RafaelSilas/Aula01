@@ -1,0 +1,10 @@
+package br.aula.model;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+
+
+public class Usuario {
+
+}

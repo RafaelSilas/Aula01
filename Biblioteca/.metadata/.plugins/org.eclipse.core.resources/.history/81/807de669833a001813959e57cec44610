@@ -1,0 +1,20 @@
+package br.aula.model;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+
+
+public class Usuario {
+
+	
+	@Id
+	@GeneratedValue
+	private Long idUsuario;
+	
+	@Column(name = "rv_Comentario", nullable = true, length = 100)
+	private String comentario;
+	
+	@Column(name = "rv_Avaliacao", nullable = true, length = 100)
+	private int avalicao;
+}

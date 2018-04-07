@@ -1,0 +1,13 @@
+INDEX VERSION 1.129+C:\Users\LABA18-12\Documents\Biblioteca\.metadata\.plugins\org.eclipse.jdt.core
+978466222.index
+2485834729.index
+2930899502.index
+1048066867.index
+3659505793.index
+1145421522.index
+2257921094.index
+3645767988.index
+2431546415.index
+3110965500.index
+856443981.index
+283467300.index

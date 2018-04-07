@@ -1,0 +1,26 @@
+package br.aula.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.GeneratedValue;
+
+public class Livro {
+	
+	@Id
+	@GeneratedValue
+	private Long idLivro;
+	
+	@Column(name = "li_Titulo", nullable = true, length = 100)
+	private String titulo;
+	
+	@Column(name = "li_foto", nullable = true, length = 250)
+	private String foto;
+	
+	@Column(name = "li_Quantidade", nullable = true, length = 200)
+	private int quantidade;
+
+}

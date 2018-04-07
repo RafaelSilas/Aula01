@@ -1,0 +1,26 @@
+package br.aula.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
+import javax.persistence.GeneratedValue;
+
+public class Emprestimo {
+
+	@Id
+	@GeneratedValue
+	private Long idEmprestimo;
+	
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "cli_dataEmprestimo", nullable = true, length = 200)
+	private Date dataEmprestimo;
+	
+	@Transient //não será persistido
+	private int idade;
+	
+}

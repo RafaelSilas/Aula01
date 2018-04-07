@@ -1,0 +1,54 @@
+package br.aula.model;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+
+public class Livro {
+	
+	@Id
+	@GeneratedValue
+	private Long idLivro;
+	
+	public Long getIdLivro() {
+		return idLivro;
+	}
+
+	public void setIdLivro(Long idLivro) {
+		this.idLivro = idLivro;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	@Column(name = "li_Titulo", nullable = true, length = 100)
+	private String titulo;
+	
+	@Column(name = "li_Foto", nullable = true, length = 250)
+	private String foto;
+	
+	@Column(name = "li_Quantidade", nullable = true, length = 200)
+	private int quantidade;
+
+}
